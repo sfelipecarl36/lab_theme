@@ -1,0 +1,122 @@
+
+
+#footer > div.footer {
+    border-top: 3px solid red;
+    background: rgb(52, 58, 64);
+    background-size: cover;
+    padding: 0;
+    min-height: 260px;
+}
+
+.footer-bottom {
+    padding: 0;
+    padding-bottom: 2rem;
+}
+
+div.footer > div.container > section.footer-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+/* Segundo Rodapé */
+
+.rede_social {
+    float: right;
+    margin-right: 0;
+}
+
+.rede_social ul {
+    list-style: none;
+    width: 300px;
+}
+
+.rede_social ul li {
+    float: left;
+    margin: 10px 14px;
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 200ms;
+}
+
+
+.rede_social ul li a {
+    color: #fff;
+    min-width: 45px;
+    min-height: 45px;
+    border-radius: 50%;
+    background: none;
+    border: 2px solid  #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 200ms;
+}
+
+.rede_social ul li:hover a {
+    background: #00c496;
+    transition-duration: 200ms;
+}
+
+.rede_social ul li a svg {
+    font-size: 22px;
+    color: white;
+}
+
+/* Terceiro Rodapé */
+
+p.p-footer {
+    font-size: 14px;
+    color: #ccc;
+}
+
+p > svg {
+    margin-right: 7px;
+}
+
+p.p-location {
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+
+p.p-location a {
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+
+/* Inferior Rodapé */
+
+#block-menurodape > ul.menu {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#block-menurodape > ul.menu li{
+    float: left;
+}
+
+#block-menurodape > ul.menu li a{
+    margin: 0px 15px;
+    font-size: 14px;
+    color:rgb(108, 117, 125);
+}
+
+#block-menurodape > ul.menu li a:hover{
+    color:#ccc
+}
+
+#block-menurodape > ul.menu li::marker {
+    content: '|';
+    font-size: 1.2em;
+    margin: 0px 5px;
+}
